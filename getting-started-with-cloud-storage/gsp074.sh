@@ -9,6 +9,7 @@ gsutil mb gs://my-new-bucket
 
 
 
+
 # Task-2: Upload an object into your bucket
 curl https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/800px-Ada_Lovelace_portrait.jpg --output ada.jpg
 
