@@ -35,7 +35,7 @@ curl -s -w "\n" https://$GATEWAY_URL/hello
 
 
 # Task-4: Securing access by using an API Key
-export API_KEY=AIzaSyDo-wdoTzsaRbZoE2gvV1Z4ax1C00mFCLI
+export API_KEY=_PASTE_API_KEY_HERE
 # enable api key support
 MANAGED_SERVICE=$(gcloud api-gateway apis list --format json | jq -r .[0].managedService | cut -d'/' -f6)
 echo $MANAGED_SERVICE
